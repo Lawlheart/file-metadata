@@ -1,0 +1,29 @@
+{
+  "name": "file-metadata",
+  "version": "0.0.0",
+  "description": "File metadata microservice made as part of FCC curriculum.",
+  "main": "server.js",
+  "keywords": [
+    "MongoDB",
+    "Mongoose",
+    "full stack",
+    "Express",
+    "Node",
+    "javascript"
+  ],
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": ".git"
+  },
+  "author": "Kenneth Black",
+  "dependencies": {
+    "cors": "^2.7.1",
+    "dotenv": "^1.2.0",
+    "express": "^4.12.4",
+    "got": "^6.1.1",
+    "multer": "^1.1.0"
+  }
+}

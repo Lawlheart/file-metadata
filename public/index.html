@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>File Metadata Microservice</title>
+   <link href="/public/css/main.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+   <header>
+      <p>Welcome to my File Metadata Microservice!</p>
+   </header>
+
+   <main class="container">
+      <div class="user-stories">
+         <h4 class="title">User Stories</h4>
+         <ul>
+            <li>I can submit a FormData object that includes a file upload.</li>
+            <li>When I submit something, I will receive the file size in bytes within the JSON response</li>
+         </ul>
+      </div>
+      <form class="upload-box" enctype="multipart/form-data" action="/api/fileanalyse" method="POST">
+         <h4 class="title">Upload your file here </h4>
+         <label class="custom-file-upload">
+            <input type="file" id="upload" name="attachment">
+            <span id="upload-label">Choose File</span>
+         </label>
+         <button class="upload" type="submit">Upload</button>
+      </form>
+      <div id="output"></div>
+   </main>
+
+   <footer>
+      <p class="sig-text">Code by <a href="http://lawlietblack.com">Kenneth Black</a></p>
+      <p class="clementine-text">Powered by Clementine.js<img src="/public/img/clementine_150.png" /></p>
+   </footer>
+   <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.2.1/jquery.js"></script>
+   <script src="controllers/main.client.js"></script>
+</body>
+</html>

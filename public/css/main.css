@@ -1,0 +1,144 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,700);
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,700);
+body {
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	margin: 0;
+	padding: 0;
+}
+
+ul li {
+	list-style: none;
+}
+
+code {
+	font-family: monospace;
+	background-color: #222;
+	color: #00BCD4;
+	padding: 6px;
+	margin: 2px;
+	border-radius: 2px;
+  line-height: 35px;
+}
+
+header {
+	color: #00BCD4;
+	height: 56px;
+	margin: 0 0 14px 0;
+	text-align: center;
+}
+
+
+.container {
+	max-width: 1000px;
+	margin: 20px auto;
+	min-height: 400px;
+}
+
+/****** Header Styling ******/
+
+header p {
+	margin: 16px 0 5px 0;
+}
+
+header a ~ p {
+	margin: 0;
+	padding: 0;
+	display: inline;
+	color: #ECEFF1;
+}
+
+
+/****** Logo Div Styling ******/
+
+img {
+	margin: 0 auto;
+	height: 20px;
+	display: inline-block;
+}
+
+footer {
+	margin: 20px auto o;
+	text-align: center;
+}
+
+.sig-text {
+	margin: 0;
+	padding: 0;
+	color: #00BCD4;
+}
+
+.sig-text a, .sig-text a:visited, .sig-text a:hover {
+	text-decoration: none;
+	font-weight: bold;
+	color: #00BCD4;
+}
+
+.clementine-text {
+	padding: 0;
+	margin: 0;
+	font-weight: 500;
+	font-size: 20px;
+	color: #FFA000;
+	display: inline-block;
+}
+
+h4.title {
+	margin: 10px auto;
+	text-align: center;
+}
+
+.user-stories li {
+	margin: 6px auto;
+	max-width: 300px;
+}
+
+.upload-box {
+	max-width: 300px;
+	margin: 30px auto;
+}
+
+input[type=file] {
+	display: none;
+}
+
+.custom-file-upload {
+  border: 1px solid #ccc;
+  display: inline-block;
+  padding: 6px 12px;
+  cursor: pointer;
+	width: 180px;
+	border-radius: 3px;
+}
+
+button.upload {
+	font-family: 'Raleway', sans-serif;
+	font-weight: bold;
+	padding: 8px 16px;
+	font-size: 14px;
+	border-radius: 3px;
+	background-color: #00BCD4;
+	color: #fff;
+	border: none;
+	width: 90px;
+	cursor: pointer;
+}
+
+#output {
+	max-width: 300px;
+	min-height: 180px;
+	margin: 20px auto;
+}
+#output p {
+	margin: 6px 0;
+}
+
+#output span.key {
+	width: 70px;
+	display: inline-block;
+	background-color: #00BCD4;
+	color: #fff;
+	padding: 6px 4px;
+	font-weight: bold;
+	border-radius: 3px;
+}
