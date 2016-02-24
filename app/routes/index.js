@@ -2,7 +2,7 @@
 
 var cors = require('cors');
 var multer = require('multer');
-var upload = multer({ dest: '/api/fileanalyse' });
+var upload = multer({ dest: '/tmp' });
 
 module.exports = function (app, db) {
 
